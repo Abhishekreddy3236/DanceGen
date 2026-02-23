@@ -1,0 +1,18 @@
+{
+  "variant": "baseline",
+  "data": "data/features/train",
+  "val_data": "data/features/val",
+  "out": "runs/baseline33",
+  "epochs": 10,
+  "batch": 8,
+  "coords": 3,
+  "joints": 33,
+  "beat_dim": 3,
+  "lr": 0.0003,
+  "seed": 42,
+  "diffusion_steps": 1000,
+  "resume": "",
+  "num_workers": 0,
+  "log_every": 50,
+  "pck_thresh": 0.05
+}
